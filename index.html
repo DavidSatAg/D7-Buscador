@@ -4,7 +4,121 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Buscador</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <img
+        src="https://dals0gb6i1pll.cloudfront.net/img/buser-horizontal-rosa.0109919.svg"
+        alt="logo da Buser"
+      />
+      <div class="entrar">Entrar</div>
+    </header>
+    <div class="container">
+      <main>
+        <h1>VIAGENS DE ÔNIBUS MAIS BARATAS QUE A PASSAGEM DA RODOVIÁRIA</h1>
+        <p class="texto">Sem taxas, com segurança e preço justo</p>
+        <div class="conteudo">
+          <div class="seletor">
+            <label class="identificadores">Saindo de</label>
+            <div class="campo_seletor">
+              <img
+                class="icone"
+                src="images/circulo.png"
+                alt="ícone de círculo"
+              />
+              <select class="select">
+                <option>São José dos Campos - SP</option>
+                <option>São paulo - SP</option>
+                <option>Belo Horizonte - MG</option>
+              </select>
+              <img
+                class="icone repetir"
+                src="images/repetir.png"
+                alt="ícone de repetir"
+              />
+            </div>
+          </div>
+          <div class="seletor">
+            <label class="identificadores">Indo para</label>
+            <div class="campo_seletor">
+              <img
+                class="icone"
+                src="images/localizacao.png"
+                alt="ícone de localizacao"
+              />
+              <select class="select">
+                <option>Belo Horizonte - MG</option>
+                <option>São paulo - SP</option>
+                <option>São José dos Campos - SP</option>
+              </select>
+            </div>
+          </div>
+          <div class="seletor">
+            <label class="identificadores">Data de ida</label>
+            <div class="campo_seletor">
+              <img
+                class="icone"
+                src="images/calendario.png"
+                alt="ícone de calendario"
+              />
+              <input class="select" type="text" placeholder="Ida" />
+            </div>
+          </div>
+          <div class="seletor">
+            <label class="identificadores">Data de volta</label>
+            <div class="campo_seletor">
+              <img
+                class="icone"
+                src="images/calendario.png"
+                alt="ícone de calendario"
+              />
+              <input class="select" type="text" placeholder="Volta" />
+            </div>
+          </div>
+          <button class="buscar">
+            <img class="icone" src="images/lupa.png" alt="ícone de lupa" />
+            Buscar
+          </button>
+        </div>
+        <img
+          class="onibus"
+          src="https://dals0gb6i1pll.cloudfront.net/img/onibus-buser-lado-maior.e009483.png"
+          alt="ônibus da Buser"
+        />
+      </main>
+    </div>
+    <nav class="footer">
+      <div class="campos_rodape">
+        <img class="icone" src="images/procurar.png" alt="ícone de lupa" />
+        <p class="rodape">Buscar</p>
+      </div>
+      <div class="campos_rodape">
+        <img class="icone" src="images/onibus.png" alt="ícone de lupa" />
+        <p class="rodape">Viagens</p>
+      </div>
+      <div class="campos_rodape">
+        <img class="icone" src="images/carteira.png" alt="ícone de lupa" />
+        <p class="rodape">Carteira</p>
+      </div>
+      <div class="campos_rodape">
+        <img class="icone" src="images/motivacao.png" alt="ícone de lupa" />
+        <p class="rodape">Promoções</p>
+      </div>
+      <div class="campos_rodape">
+        <img class="icone" src="images/pergunta.png" alt="ícone de lupa" />
+        <p class="rodape">Ajuda</p>
+      </div>
+    </nav>
+  </body>
 </html>
